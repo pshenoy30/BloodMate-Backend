@@ -18,7 +18,6 @@ const connectMongo = async () => {
             await importUserData();
             await importInventoryData();
             await importSiteData();
-            mongoose.disconnect();
         }
     } catch (error) {
         
