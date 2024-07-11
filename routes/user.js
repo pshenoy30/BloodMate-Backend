@@ -1,5 +1,5 @@
 import express from 'express';
-import { getDonorUsers, getRequestUsers } from '../controllers/userCrontroller.js';
+import { getDonorUsers, getRequestUsers } from '../controllers/userController.js';
 
 const router = express.Router();
 
