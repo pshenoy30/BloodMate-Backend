@@ -7,6 +7,7 @@ import importSiteData from "./seed/siteSeed.js";
 import importInventoryData from "./seed/inventorySeed.js";
 import userRoute from "./routes/user.js";
 import inventoryRoute from "./routes/inventory.js";
+import siteRoute from "./routes/site.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -32,6 +33,7 @@ app.use(cors());
 
 app.use("/user", userRoute);
 app.use("/inventory", inventoryRoute);
+app.use("/site", siteRoute);
 
 app.get("/", (req, res) => {
     res.status(200).send("Testing Request Successful");
