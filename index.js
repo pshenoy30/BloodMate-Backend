@@ -2,14 +2,13 @@ import mongoose from "mongoose";
 import express from 'express';
 import 'dotenv/config';
 import cors from 'cors';
-import importUserData from "./seed/user.js"
-import importSiteData from "./seed/site.js";
-import importInventoryData from "./seed/inventory.js";
+import importUserData from "./seed/userSeed.js"
+import importSiteData from "./seed/siteSeed.js";
+import importInventoryData from "./seed/inventorySeed.js";
+import userRoute from "./routes/user.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const db = process.env.ATLAS_URI;
-const dbOptions = {useNewUrlParser: true, useUnifiedTopology: true};
 
 const connectMongo = async () => {
     try {
@@ -29,6 +28,8 @@ app.use(express.json());
 
 // All routes
 app.use(cors()); 
+
+app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
     res.status(200).send("Testing Request Successful");
