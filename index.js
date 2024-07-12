@@ -21,7 +21,7 @@ const connectMongo = async () => {
             await importSiteData();
         }
     } catch (error) {
-        
+        res.status(500).send("server error");
     }
 }
 
