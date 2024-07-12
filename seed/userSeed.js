@@ -1,5 +1,5 @@
 import User from "../models/userSchema.js";
-import UserJson from "../data/user.json" assert {type: "json"};
+import UserJson from "../data/users.json" assert {type: "json"};
 
 const importUserData = async () => {
   try {

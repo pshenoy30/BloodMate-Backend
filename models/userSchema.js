@@ -13,7 +13,8 @@ const userSchema = new Schema(
         lastDonated: {type: String },
         bloodType: {type: String },
         availabilty: {type: String },
-        formDate: {type: String }
+        formSigned: {type: Date},
+        city: {type: String}
     }
 );
 
