@@ -2,12 +2,8 @@ import User from "../models/userSchema.js"
 
 const getDonorUsers = async (req, res) => {
     try{
-<<<<<<< HEAD
-        const users =  await User.find({userType:"donor" , city:req.body.city}).sort({"id": 1});
-=======
         const users =  await User.find({userType:"donor" , city:req.params.city}).sort({"id": 1});
         console.log(users)
->>>>>>> develop
         if(users.length > 0){
           return res.status(200).json(users);
         } else{
