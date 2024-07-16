@@ -33,11 +33,11 @@
   {
     "id": 1,
     "address1": "35 Stone Church Road",
-    "city": "Ancaster",
+    "city": "Hamilton",
     "province": "ON",
     "postalCode": "L9K 1S4",
     "country": "Canada",
-    "fullAddress": "35 Stone Church Road Ancaster ON L9K 1S4 Canada",
+    "fullAddress": "35 Stone Church Road Ancaster Hamilton ON L9K 1S4 Canada",
     "latitude": 43.2278656,
     "longitude": -79.9359506,
     "plasma": "no",
@@ -373,7 +373,7 @@
   },
   {
     "id": 12,
-    "address1": "3735 Mayor Magrath Dr S 3735 Mayor Magrath Dr S",
+    "address1": "3735 Mayor Magrath Dr S",
     "city": "Lethbridge",
     "province": "AB",
     "postalCode": "T1K 8A8",
@@ -777,11 +777,11 @@
   {
     "id": 25,
     "address1": "880 Warden Ave.",
-    "city": "Scarborough",
+    "city": "Toronto",
     "province": "ON",
     "postalCode": "M1L 4W6",
     "country": "Canada",
-    "fullAddress": "880 Warden Ave. Scarborough ON M1L 4W6 Canada",
+    "fullAddress": "880 Warden Ave. Scarborough Toronto ON M1L 4W6 Canada",
     "latitude": 43.7287762,
     "longitude": -79.2884154,
     "plasma": "yes",
@@ -870,7 +870,7 @@
   {
     "id": 28,
     "address1": "900 Lasalle Blvd",
-    "city": "Sudbury",
+    "city": "Greater Sudbury",
     "province": "ON",
     "postalCode": "P3A 5W8",
     "country": "Canada",
@@ -1024,37 +1024,6 @@
   },
   {
     "id": 33,
-    "address1": "67 College Street",
-    "city": "Toronto",
-    "province": "ON",
-    "postalCode": "M5G 2M1",
-    "country": "Canada",
-    "fullAddress": "67 College Street Toronto ON M5G 2M1 Canada",
-    "latitude": 43.6604587,
-    "longitude": -79.3869301,
-    "plasma": "no",
-    "blood": "yes",
-    "platelet": "no",
-    "phoneNumber": "1-888-236-6283",
-    "appointmentNeeded": "Book appointment",
-    "sunStart": "Closed",
-    "sunEnd": "Closed",
-    "monStart": "9:00 AM",
-    "monEnd": "2:00 PM",
-    "tueStart": "1:00 PM",
-    "tueEnd": "6:00 PM",
-    "wedStart": "2:00 PM",
-    "wedEnd": "7:00 PM",
-    "thurStart": "2:00 PM",
-    "thurEnd": "7:00 PM",
-    "friStart": "Closed",
-    "friEnd": "Closed",
-    "satStart": "Closed",
-    "satEnd": "Closed",
-    "notes": "1 block west of College and Bay. Nearest subway stops - either Queen's Park or College."
-  },
-  {
-    "id": 34,
     "address1": "2nd Floor 888 Dunsmuir Street",
     "city": "Vancouver",
     "province": "BC",
@@ -1085,7 +1054,7 @@
     "notes": "Clinic building is located on the corner of Dunsmuir St. & Hornby St. (across from Starbucks located on the opposite corner)\nOnce you arrive at 888 Dunsmuir please take the elevator to the 2nd floor, Suite 250. \nPlease be advised that Canadian Blood Services does not reimburse parking costs.\n\nWe offer a free shuttle for groups of 4 or more every Tuesday, Wednesday and Thursday between 10:30am-3:30 pm . For more info. please email bookagroupbc@blood.ca."
   },
   {
-    "id": 35,
+    "id": 34,
     "address1": "4750 Oak Street",
     "city": "Vancouver",
     "province": "BC",
@@ -1116,7 +1085,7 @@
     "notes": "Located at Oak St. & W. 32nd Ave next to BC Children’s Hospital. Free parking available. We offer free transportation for groups of 3 or more. For more info, please email bookagroupbc@blood.ca"
   },
   {
-    "id": 36,
+    "id": 35,
     "address1": "3449 Saanich Road",
     "city": "Victoria",
     "province": "BC",
@@ -1147,7 +1116,7 @@
     "notes": "The clinic is located on Saanich Rd between Hwy 1 (Douglas St) and Hwy 17 (Blanshard St), attached to the Bank of Montreal on Oak St."
   },
   {
-    "id": 37,
+    "id": 36,
     "address1": "94 Bridgeport Road East",
     "city": "Waterloo",
     "province": "ON",
@@ -1178,7 +1147,7 @@
     "notes": "Hwy 8 to Hwy 85 North Exit at Bridgeport Road - west direction Clinic at corner of Bridgeport and Weber beside Sobeys"
   },
   {
-    "id": 38,
+    "id": 37,
     "address1": "3015 Howard Ave, Unit 1",
     "city": "Windsor",
     "province": "ON",
@@ -1209,7 +1178,7 @@
     "notes": "Donor centre located at The RoundHouse Centre. Drive past Toys“R”Us, the donor centre is located in the strip mall beside Lee Valley.  Notre centre de donneurs se trouve dans le RoundHouse Centre, après Toys “R” Us, dans le mail linéaire qui se trouve à côté de Lee Valley."
   },
   {
-    "id": 39,
+    "id": 38,
     "address1": "777 William Avenue",
     "city": "Winnipeg",
     "province": "MB",
@@ -1240,13 +1209,13 @@
     "notes": "Platelet donor appointments are booked locally, please call 789-1118. ***** ***** ***** 777 William Avenue. Located 5 minutes from downtown, across the street/north of the Health Science Centre Emergency Room - in between Arlington Street and Sherbrooke Street. Free donor parking lot available on William Avenue (adjacent to building). In the event that the lot is full, please park on the street, pay for the time, and show the receipt to the front desk for full compensation."
   },
   {
-    "id": 40,
+    "id": 39,
     "address1": "200 Windflower Gate",
-    "city": "Woodbridge",
+    "city": "Vaughan",
     "province": "ON",
     "postalCode": "L4L 9K8",
     "country": "Canada",
-    "fullAddress": "200 Windflower Gate Woodbridge ON L4L 9K8 Canada",
+    "fullAddress": "200 Windflower Gate Woodbridge Vaughan ON L4L 9K8 Canada",
     "latitude": 43.7912438,
     "longitude": -79.5549,
     "plasma": "yes",

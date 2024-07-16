@@ -12,7 +12,7 @@ import siteRoute from "./routes/site.js";
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-const connectMongo = async () => {
+const connectMongo = async (req,res) => {
     try {
         await mongoose.connect (process.env.ATLAS_URI);
         if(process.argv.includes("--seed")){
