@@ -1,8 +1,12 @@
 .env
+<<<<<<< HEAD
 .env.example
 .env.local
 .env.staging
 node_modules/
+=======
+node_modules
+>>>>>>> develop
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
