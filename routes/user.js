@@ -8,5 +8,5 @@ router.get("/donor/:city", getDonorUsers);
 router.get("/requestor/:city", getRequestUsers);
 router.post("/login", getUser);
 router.post("/register", postUser);
-router.get("/current", validateToken, currentUser);
+router.get("/profile", validateToken, currentUser);
 export default router;

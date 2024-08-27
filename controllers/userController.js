@@ -33,6 +33,7 @@ const getRequestUsers = async (req, res) => {
 const getUser = async (req,res) => {
   try{
     const { email, password } = req.body;
+    console.log(email, password);
     if( !email || !password){
       return res.status(400).send("All fields are mandatory");
     }
@@ -53,11 +54,14 @@ const postUser = async (req,res) => {
   try{
     const {email, userName, password}  = req.body;
     if(!email || !userName || !password){
+      console.log("email", req.body.email);
+      console.log("username", req.body.userName);
+      console.log("password", req.body.password);
       return res.status(400).send("All fields are mandatory");
     }
-    const userAvailable = await User.findOne({email});
+    const userAvailable = await User.findOne({email: email});
     if(userAvailable){
-      return res.status(400).send("Email already exists")
+      return res.status(400).json(userAvailable);
     }
 
     const id = await User.countDocuments();
@@ -66,13 +70,14 @@ const postUser = async (req,res) => {
       userName: req.body.userName,
       firstName: req.body.firstName,
       lastName:req.body.lastName,
+      birthDate:req.body.birthDate,
       email: req.body.email,
       gender: req.body.gender,
       lastDonated: req.body.lastDonated,
       bloodType: req.body.bloodType,
       availability: req.body.availability,
       formSigned: req.body.formSigned,
-      userType:  req.body.userType,
+      userType:  "donor",
       city: req.body.city,
       siteId: req.body.siteId,
       password: hashedPassword,

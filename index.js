@@ -10,6 +10,14 @@ import inventoryRoute from "./routes/inventory.js";
 import siteRoute from "./routes/site.js";
 
 const app = express();
+
+const corsOptions ={
+    origin: "http://localhost:5173" , 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
+  
 const PORT = process.env.PORT || 8080;
 
 const connectMongo = async (req,res) => {
@@ -27,9 +35,6 @@ const connectMongo = async (req,res) => {
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
-
-// All routes
-app.use(cors()); 
 
 app.use("/user", userRoute);
 app.use("/inventory", inventoryRoute);
